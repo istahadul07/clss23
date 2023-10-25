@@ -1,0 +1,47 @@
+span{
+    color:red;
+}
+div p:nth-last-of-type(2)
+{
+ background-color:   green;
+}
+div p:only-of-type{
+    background-color:skyblue;
+}
+div p:only-child{
+    background-color: skyblue;
+}
+input:optional{
+    background-color:violet;
+
+}
+input:read-only{
+    background-color: pink;
+}
+.form1{
+    
+    margin-left: 570px;
+margin-top: 10px;
+}
+.main div{
+    display: none;
+}
+.main div:target{
+    display: block;
+    background-color: indianred;
+    color: white;
+    padding: 10px;
+}
+ p::first-line
+{
+   color:darkslategray;
+}
+span::first-line{
+
+    color: black;
+}
+p::first-letter{
+    width: 20px;
+    height: 30px;
+    color:brown;
+}
